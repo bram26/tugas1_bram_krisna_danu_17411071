@@ -1,0 +1,66 @@
+*{
+    width:0;
+    margin:0;
+    font-family: Arial;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+nav ul{
+    position: relative;
+    background:darkolivegreen;
+    padding: 0px 20px;
+    list-style: none;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    background: darkturquoise;
+}
+
+nav ul li:hover a {
+    background: gold;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+}
+
+nav ul ul {
+    background: olivedrab;
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li {
+    float: none;
+    border-top: 1px;
+    border-bottom: 1px;
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 15px 40px;
+    color: #000;
+}
+
+nav ul ul li a:hover  {
+    background-color: royalblue;
+}
+
+btn-1 {
+    border: 1px solid teal;
+    background: teal;
+}
